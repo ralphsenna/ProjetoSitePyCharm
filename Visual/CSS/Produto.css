@@ -1,0 +1,16 @@
+section{
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    width: 1005px;
+    background-color: white;
+    border-radius: 1rem;
+    border: #319EA1 outset 10px;
+}
+.produto img{
+    height: 20rem;
+    padding: 100px;
+}
+.produto_info{
+    padding: 50px;
+}

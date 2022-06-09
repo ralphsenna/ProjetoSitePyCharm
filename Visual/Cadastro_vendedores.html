@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Visual/CSS/Casdastro_Vendedor.css">
+    <link rel="stylesheet" href="/Visual/CSS/Main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>cadastro vendedor</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="top">
+                <div class="logo"> 
+                    <a href="/."><img src="/Visual/Imagens/logo_size-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="acoes">
+                    <a href="/login/">Login</a>
+                    <a href="">Pedidos</a>
+                    <a href="">Contato</a>
+                    <a href="">Carrinho</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <form >
+                    <label for="texto">Pesquisa</label>
+                    <input type="seach" name="texto" id="texto" size="60" placeholder="Bucar Produto">
+                </form>
+                <div class="bloco_pesquisa">
+                    <a href="">Computadores</a>
+                    <a href="">Notbooks</a>
+                    <a href="">Perif�ricos</a>
+                    <a href="">Monitores</a>
+                    <a href="">Home Office</a>
+                </div>
+               </div>
+        </header>
+        <section class="cadastro">
+            <form action="/cad_vendedores/adTabela" method="GET">
+                <h2>Casdastrar novo vendedor</h2>
+                <label for="nome">Nome</label> <br>
+                <input type="text" name="nome" required="required" size="50"> <br> <br>
+                <label for="email">E-mail</label> <br>
+                <input type="email" name="email"  required="required" size="50"> <br> <br>
+                <label for="senha">Senha</label> <br>
+                <input type="password" name="senha"  required="required" size="50"> <br> <br>
+                <label for="senha2">Confirmar Senha</label> <br>
+                <input type="password" name="senha2"  required="required" size="50"> <br> <br>
+                <label for="cpf">CPF/CNPJ</label><br>
+                <input type="text" name="cpf"  required="required" size="50"><br> <br>
+                <input type="submit" value="Cadastrar" >
+            </form>
+        </section>
+    </div>
+    <div class="informacoes">
+        <a href="">FAQ</a>
+        <div>
+            <p>Quem Somos</p>
+            <a href="/curriculo.html">Portif�lio:Rafael </a><br><br>
+            <a href="/Perfil.html">Portif�lio:Beatriz</a>
+        </div>
+        <div>
+            <p>Contato <br>
+                Telefone: (18) 3229-1060 <br>
+                Endere�o: R. Jos� Bongiovani, 700 - Cidade Universit�ria, Pres. Prudente - SP, 19050-920
+            </p>
+        </div>
+    </div>
+</body>
+</html>

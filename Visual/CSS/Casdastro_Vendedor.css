@@ -1,0 +1,17 @@
+.cadastro{
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    width: 1005px;
+    background-color: white;
+    border-radius: 1rem;
+    border: #319EA1 outset 10px;
+}
+form{
+    padding-left: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+label{
+    color: black;
+}

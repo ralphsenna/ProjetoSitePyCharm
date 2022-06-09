@@ -1,0 +1,76 @@
+
+.corpo{
+    margin: auto;
+    margin-top: 200px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1005px;
+}
+.ofertas{
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 1rem;
+    border-radius: 1rem;
+    border: #319EA1 outset 10px;
+}
+.ofertas header{
+    background: url(/Visual/Imagens/shutterstock_349563746_Toria.jpg);
+    padding: 10px;
+    border-radius: 10px;
+    color: white ;
+    font-size: 20px;
+}
+.promocao{
+    display: flex;
+    margin: 5rem;
+}
+.bloco{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.produto{
+    padding-bottom: 0.8rem;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.produto img{
+    height: 10rem;
+}
+.botao{
+    margin-top: 10px;
+    padding: 50px;
+    
+}
+.botao button{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+.menu{
+    border-radius: 0.9rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: #319EA1 outset 10px;
+}
+.icone{
+    background-color:  #319EA1;
+    padding: 10px;
+    border-radius: 1rem;
+    border: #319EA1 outset 10px;
+}
+.categoria{
+    color: white;
+}
+.opcoes{
+    padding: 1.5rem;
+    display: flex;
+    text-align: initial;
+}
+.opcoes li{
+    margin-bottom: 5px;
+    font-size: 17px;
+    list-style: none;
+}

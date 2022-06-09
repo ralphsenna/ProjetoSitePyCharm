@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Visual/CSS/Main.css">
+    <link rel="stylesheet" href="/Visual/CSS/Casdastro_Vendedor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Produto</title>
+</head>
+<body>
+    <div id="container">
+         <header>
+            <div class="top">
+                <div class="logo">
+                    <a href="/."><img src="/Visual/Imagens/logo_size-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="acoes">
+                    <a href="/login/">Login</a>
+                    <a href="">Pedidos</a>
+                    <a href="">Contato</a>
+                    <a href="">Carrinho</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <form >
+                    <label for="texto">Pesquisa</label>
+                    <input type="seach" name="texto" id="texto" size="60" placeholder="Bucar Produto">
+                </form>
+                <div class="bloco_pesquisa">
+                    <a href="">Computadores</a>
+                    <a href="">Notbooks</a>
+                    <a href="">Perif?ricos</a>
+                    <a href="">Monitores</a>
+                    <a href="">Home Office</a>
+                </div>
+               </div>
+        </header>
+        <section class="cadastro">
+            <div class="alteracao">
+                <form action="/login/AlterarProdutoD">
+                    <p>Nome do produto que gostaria de alterar</p>
+                    <label for="nome">Nome</label>
+                    <input type="text" required="required" name="nome" size="20"> <br>
+                    <label for="descricao">Nova Descricao</label> 
+                    <input type="text" required="required" name="descricao" size="20"> 
+                    <input type="submit" value="Alterar">
+                </form>
+                <hr>
+                <form action="/login/AlterarProdutoP">
+                    <label for="nome">Nome</label>
+                    <input type="text" required="required" name="nome" size="20"> <br>
+                    <label for="preco">Novo preco</label>
+                    <input type="text" required="required" name="preco" size="20"> 
+                    <input type="submit" value="Alterar">
+                </form>
+                <hr>
+                <form action="/login/AlterarProdutoN">
+                    <label for="nome">Nome</label>
+                    <input type="text" required="required" name="nome" size="20"> <br>
+                    <label for="nome2">Novo nome</label> 
+                    <input type="text" required="required" name="nome2" size="20">
+                    <input type="submit" value="Alterar"> 
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="informacoes">
+        <a href="">FAQ</a>
+        <div>
+            <p>Quem Somos</p>
+            <a href="/curriculo.html">Portif�lio:Rafael </a><br><br>
+            <a href="/Perfil.html">Portif�lio:Beatriz</a>
+        </div>
+        <div>
+            <p>Contato <br>
+                Telefone: (18) 3229-1060 <br>
+                Endere�o: R. Jos� Bongiovani, 700 - Cidade Universit�ria, Pres. Prudente - SP, 19050-920
+            </p>
+        </div>
+    </div>
+</body>
+</html>

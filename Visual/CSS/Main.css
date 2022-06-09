@@ -1,0 +1,85 @@
+#container{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url(/Visual/Imagens/Fundo.png);
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 60px;
+}
+.top{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1005px;
+}
+
+.acoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acoes a{
+    color: white;
+}
+.bottom
+{
+    margin: auto;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1005px; 
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+.bottom form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bloco_pesquisa{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-color:#319EA1;
+    border-radius: 1rem;
+    border: black solid 3px;
+}
+.bloco_pesquisa a{
+    margin-left: 5%;
+    color: white;
+}
+.informacoes{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 60px;
+}
+.informacoes a{
+    color: white;
+    font-size: 25px;
+}
+.informacoes div{
+    margin-left: 100px;
+}
+.logo a{
+    padding: 1px;
+    padding-top: 60px;
+}
+.bottom label{
+    color: white;
+}

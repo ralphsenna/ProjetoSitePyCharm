@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Visual/CSS/Main.css">
+    <link rel="stylesheet" href="/Visual/CSS/Casdastro_Vendedor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Produto</title>
+</head>
+<body>
+    <div id="container">
+         <header>
+            <div class="top">
+                <div class="logo">
+                    <a href="/."><img src="/Visual/Imagens/logo_size-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="acoes">
+                    <a href="/login/">Login</a>
+                    <a href="">Pedidos</a>
+                    <a href="">Contato</a>
+                    <a href="">Carrinho</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <form >
+                    <label for="texto">Pesquisa</label>
+                    <input type="seach" name="texto" id="texto" size="60" placeholder="Bucar Produto">
+                </form>
+                <div class="bloco_pesquisa">
+                    <a href="">Computadores</a>
+                    <a href="">Notbooks</a>
+                    <a href="">Perif?ricos</a>
+                    <a href="">Monitores</a>
+                    <a href="">Home Office</a>
+                </div>
+               </div>
+        </header>
+        <section class="cadastro">
+            <form action=" /cad_produto/adTabela" method="GET">
+                <h2>Cadastrar um produto</h2><br>
+                <label for="nome">Nome do produto</label> <br>
+                <input type="text" name="nome" size="50" required="required"><br><br>
+                <label for="cond">Condioções do produto </label> <br><br>
+                <label for="preco">Preço</label> <br>
+                <input type="number" required="required" name="preco" size="50"> <br> <br>
+                <label for="formas">Formas de pagamento aceitas</label> <br>
+                <input type="checkbox" name="formas" value="1"> <label >Credito/Debito</label><br>
+                <input type="checkbox" name="formas" value="2"> <label >Boleto</label><br>
+                <input type="checkbox" name="formas" value="3"> <label >PayPal</label><br> <br>
+                <label for="descricao">Descrição do produto</label><br>
+                <textarea name="descricao" id="produto" cols="30" rows="10"></textarea>
+                <input type="submit" value="Salvar">
+
+            </form>
+        </section>
+    </div>
+    <div class="informacoes">
+        <a href="">FAQ</a>
+        <div>
+            <p>Quem Somos</p>
+            <a href="/curriculo.html">Portifólio:Rafael </a><br><br>
+            <a href="/Perfil.html">Portifólio:Beatriz</a>
+        </div>
+        <div>
+            <p>Contato <br>
+                Telefone: (18) 3229-1060 <br>
+                Endereço: R. José Bongiovani, 700 - Cidade Universitária, Pres. Prudente - SP, 19050-920
+            </p>
+        </div>
+    </div>
+</body>
+</html>
